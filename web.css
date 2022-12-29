@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: auto;
+    height: 500px;
+    /* border: 10px solid black; */
+    background-image: url(https://thumbs.dreamstime.com/b/clothes-shop-shirt-hanged-stand-43380502.jpg);
+    /* background-image: url(pexels-william-matt-3768005.jpg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    background-size: cover;
+}
+
+.nav {
+    width: 400px;
+    /* border: 10px solid black; */
+    display: inline-block;
+    margin: auto;
+    margin-left: 490px;
+    position: fixed;
+    top: 20px;
+    /* background-color: black; */
+}
+
+.nav>a {
+
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: solid;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+
+
+}
+
+.nav>a:hover {
+    background-color: brown;
+
+}
+
+.logo {
+    width: 400px;
+    /* border: 10px solid rgb(0, 0, 0); */
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 900;
+    margin-left: 10px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+h1 {
+    margin: auto;
+    /* border: 2px solid; */
+    position: relative;
+    text-align: center;
+    width: 600px;
+    color: blue;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+li {
+    /* border: 2px solid; */
+    margin-left: 200px;
+    width: 600px;
+}
+
+li {
+    list-style-type: circle;
+    color: rgba(14, 14, 15, 0.842);
+    position: relative;
+    left: 200px;
+    font-weight: bold;
+    background-color: azure;
+    font-size: 30px;
+}
+
+.list {
+
+    /* border: 2px solid; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(112, 112, 211, 0.103);
+
+}
+
+.note {
+
+    /* border: 2px solid; */
+    color: rgba(235, 239, 240, 0.904);
+    background-color: rgb(28, 13, 61);
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 800;
+    border-radius: 30px;
+}
+
+.note:hover {
+    background-color: rgb(255, 0, 13);
+}
+
+span {
+    margin-left: 100px;
+}
+
+.noteabout {
+    /* border: 2px solid; */
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 800;
+    border-radius: 30px;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+.image {
+
+    height: 520px;
+    border: 20px solid;
+    position: relative;
+    width: 400px;
+    margin: auto;
+    top: 30px;
+    background-image: url(bhaiya.PNG);
+    border-radius: 50%;
+    background-position: center;
+}
+
+.owner {
+    margin-top: 40px;
+
+}
+
+.information {
+    height: 130px;
+    position: relative;
+    top: 20px;
+    bottom: 40px;
+    width: 500px;
+    margin: auto;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(155, 200, 214, 0.719);
+    border-radius: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    /* border-radius: 40px; */
+}
+
+footer {
+    margin-top: 40px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: black;
+    color: red;
+    text-transform: uppercase;
+
+}
+
+footer>div {
+    padding: 5px;
+    margin: auto;
+}
+
+.join {
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    left: 600px;
+    top: 20px;
+    border: 2px solid;
+    background-color: red;
+    color: rgba(250, 241, 241, 0.93);
+    text-transform: uppercase;
+    border-radius: 50%;
+}
+
+.join:hover {
+    background-color: blue;
+    cursor: pointer;
+}
