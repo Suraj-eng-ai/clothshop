@@ -192,9 +192,10 @@ footer>div {
     top: 20px;
     border: 2px solid;
     background-color: red;
-    color: rgba(250, 241, 241, 0.93);
+    color: white;
     text-transform: uppercase;
     border-radius: 50%;
+    font-width:900;
 }
 
 .join:hover {
